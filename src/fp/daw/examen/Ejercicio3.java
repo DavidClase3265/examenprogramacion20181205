@@ -31,16 +31,24 @@ public class Ejercicio3 {
 	 * comparación !=)
 	 */
 	
+	/* Para este ejercicio cambie el for por un while, ya que tenia el "!" tuve que 
+	 * poner al reves todo, quitar el j++ y ponerlo al final del while para quee al acabar
+	 * el while le sumase uno mas a j que esta inicializada en 0
+	 */
 	public static int [] fix45(int [] nums) {
 		int j = 0;
 		for (int i=0; i<nums.length-1; i++)
 			if (nums[i] == 4 && nums[i+1] != 5) {
-				for (; !(nums[j] == 5 && (j == 0 || nums[j - 1] != 4)); j++);
+				while (nums[j] != 5 && (j != 0 || nums[j - 1] == 4)) {
+				
 				nums[j] = nums[i + 1];
 				nums[i + 1] = 5;
+				j++;
+				}
 			}
 		return nums;
 	}
+
 	
 	/*
 	 * 0,25 puntos
@@ -48,10 +56,12 @@ public class Ejercicio3 {
 	 * Escribe en el método main las sentencias necesarias para poner a prueba
 	 * el método 'fix45' mostrando por pantalla el resultado de su ejecución. 
 	 */
+public static void main(String[] args) {
 	
-	public static void main(String[] args) {
-		
-
-	}
+	fix45(nums[]);
+	
+}
 
 }
+
+	

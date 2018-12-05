@@ -11,7 +11,23 @@ public class Ejercicio2 {
 	 * contenga los mismos caracteres que ésta y en el mismo orden. 
 	 */
 	
-	public static ...
+	/* Lo que hice para este ejercicio fue crear una cadena de caracteres, se la asigne
+	 * a un metodo para que se intercambiase la cadena, hice un vector cuya longitud es la 
+	 * cadena de caracteres, y luego ya que devolviese la cadena con el mismo valor que tiene cadena
+	 */
+	public static stringToArray(String cadena) {
+		string [] vector= new vector[cadena.length()]
+				
+				for(i=0;i<cadena.length-1;i++) {
+					
+					return vector[i];
+				}
+	}
+	
+	String cadena= "Cadena numero 1";
+	
+	
+	
 	
 	
 	/*

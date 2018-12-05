@@ -1,5 +1,7 @@
 package fp.daw.examen;
 
+import java.util.Random;
+
 public class Ejercicio4 {
 
 	/* 
@@ -12,7 +14,19 @@ public class Ejercicio4 {
 	 * Finalmente retornará el array.
 	 */
 	
-	public static ...
+	/*Lo primero que hice fue crear el metodo que al meterse un numero que determinara la
+	 * dimension de un vector que para ello lo puse en new array, mas tarde cree una clase
+	 * random para que r fuese un numero aleatorio comprendido entre 975 y 13579, despues
+	 * solo tuve que hacer un for para que recorriese el array con el valor aleatorio que le meti */
+	public static arrayAleatorioOrdenado(int numero) {
+		random r=new Random(12604) + 975;
+		int [] array= new array[numero]
+		
+		for (i=0;i<=array.length-1;i++) {
+					vector[i]=s;
+				}
+		return array;
+	}
 	
 	/*
 	 * 0,25 puntos
